@@ -1,0 +1,248 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,ul,ol,dl,dd,fieldset,input,option,textarea,td{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    border:none;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+// 头部
+header{
+    width:100%;
+    // height:28px;
+    background-color:#f4f4f4;
+    .box{
+        width:1200px;
+        margin: 0 auto;
+        height:28px;
+        // background-color: red;
+        .p-1{
+            float: left;
+            font-size: 12PX;
+            height: 28px;
+            line-height: 28px;
+            margin-left: 9px;
+            a{
+                color: #9d8b59;
+            }
+        }
+        .box2{
+            float: right;
+            width:495px;
+            // background-color: pink;
+            .login{
+                font-size: 12PX;
+                height: 28px;
+                line-height: 28px;
+                color: #b2b2b2;
+            }
+            .reg{
+                font-size: 12PX;
+                height: 28px;
+                line-height: 28px;
+                color: #c20000; 
+                margin:0 18px;
+            }
+            .cart{
+                font-size: 12PX;
+                height: 28px;
+                line-height: 28px;
+                color: #b2b2b2;
+            }
+            .service{
+                font-size: 12PX;
+                height: 28px;
+                line-height: 28px;
+                color: #b2b2b2;
+                // margin: 0 8px;
+            }
+            .dy{
+                // float:left;
+                font-size: 12PX;
+                height: 28px;
+                line-height: 28px;
+                color: #b2b2b2;
+                margin: 0 8px;
+            }
+            .gwie{
+                float: right;
+                font-size: 12PX;
+                height: 28px;
+                line-height: 28px;
+                color: #b2b2b2;
+                margin: 0 8px;
+            }
+        }
+    }
+    .logo{
+        width:1200px;
+        height:162px;
+        background-color: white;
+        margin: 0 auto;
+        .logo2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width:1200px;
+            height:115px;
+            // background-color: red;
+            margin: 0 auto;
+            .lo_go1{
+                margin-top: 25px;
+                vertical-align: middle;
+            }
+            .lo_go2{
+                vertical-align: bottom;
+            }
+            .lo_go3{
+                float: right;
+                height:115px;
+            }
+        }
+        // label{
+        //     .iconfont{
+        //         position: absolute;
+        //         left:388px;
+        //         top:70px;
+        //     }
+        // }
+        .srh_ipt_new{
+            width: 315px;
+            height: 38px;
+            border:1px solid #dddddd;
+            float: left;
+            border-radius:5px 0 0 5px;
+        }
+        .srh_btn{
+            display:inline-block;
+            width: 76px;
+            height: 40px;
+            background-color: #e65454;
+            color: #ffffff;
+            border: 0;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            border-radius:0 5px 5px 0 ;
+        }
+        .nav{
+            width:1200px;
+            height:48px;
+            // background-color: yellowgreen;
+            // z-index: 10;
+        }
+        .shop{
+            width:200px;
+            height:38px;
+            background-color: #d14343;
+            padding-top: 10px;
+            float: left;
+           
+            .shop_ul{
+                width:200px ;
+                height:0 ;
+                background-color:#e6e6e6;
+                display: none;
+                position: relative;
+                // margin-left: 50px;
+                z-index: 10;
+            }
+            .shop_ul li{
+                height:57px;
+                line-height:57px;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                background-color:#e6e6e6;
+                }
+            .shop_ul li a{       
+                font-size:12px;
+                display: inline-block;
+            }
+            .shop_ul li a:nth-child(2){
+                color:#808080 ;
+            }
+            .shop_ul li a:nth-child(3),.shop_ul li a:nth-child(4){
+                color:#666666;
+            }
+            .shop_ul li span{
+                width: 4px;
+                height:57px;
+                display: inline-block;
+            }
+            .shop_ul li.ac{
+                background-color:#ffffff ;
+            }
+            .shop_ul li span.ac{
+                background-color:#ccaa7a;
+            }
+            .shop_ul_erji{
+                width:1000px;
+                height:462px;
+                position: absolute;
+                background-color: aqua;
+                left:199px;
+                top: 0;
+                display:none;
+            }
+            .shop_ul_erji .box{
+                width:1000px;
+                height:462px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                display:none;
+            }
+            span{
+                font-size: 14px;
+                color:white;
+                height:38px;
+                line-height: 38px;
+                margin: 0 5px ;
+            }
+            .iconfont{
+            float: right;
+            }
+        }
+        .nav3{
+            width:1000px;
+            height: 38px;
+            // background:yellow;
+            float:right;
+            padding-top: 10px;
+            ul{
+                width:800px;
+                display:flex;
+                height: 38px;
+                line-height: 38px;
+                font-size: 14px;
+                justify-content: space-around;
+                li{
+                    // border-bottom: white 1px solid;
+                    a{
+                        color:#333333;
+                        height: 38px;
+                        display: inline-block;
+                    }
+                }
+                :hover {
+                    border-bottom: #d14343 1px solid; 
+                }
+                
+            }  
+        }
+    }
+}
+

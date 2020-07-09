@@ -1,0 +1,30 @@
+{
+  "id": "1922605",
+  "name": "wbw",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3546184",
+      "name": "菜单",
+      "font_class": "caidan1",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1766472",
+      "name": "符号-菜单",
+      "font_class": "caidan",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "5640058",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

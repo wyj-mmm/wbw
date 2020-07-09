@@ -1,0 +1,81 @@
+@import "public";
+body{
+    background-color: #fafafa;
+}
+.left{
+    height:155px;
+    width:980px;
+    // background-color: #ffffff;
+    margin:0 auto;
+    img{
+        margin:40px 10px;
+    }
+}
+// 注册
+.loginBox {
+	width: 980px;
+	height: 530px;
+	background:#ffffff;
+    margin: 0 auto;
+    border: 1px solid #f0f0f0;
+    position: relative;
+    .p1{
+        font-size: 28px;
+        text-align: center;
+        height: 120px;
+        line-height: 120px;
+    }
+}
+.login{
+    width: 380px;
+    height: 410px;
+    background: white;
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    .dw{
+        position: absolute;
+        color: red;
+    }
+}
+ 
+.login .mm .dw{
+    position: absolute;
+    color: red;
+}
+.login .mm input{
+    width: 200px;  
+}
+input{
+    width: 260px;
+    margin-top: 20px !important;
+    height: 40px;
+}
+.btn input{
+    color: white;
+    font-size: 12px;
+    background-color: #c70709;
+    border: none;
+    cursor: pointer;
+}
+.xiaowenzi{
+    font-size: 10px;
+    color: #999999;
+    margin-top: 30px;
+    :last-child{
+        font-size: 12px;
+        color: #000000;
+    }
+}
+.last{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 70px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.sjs{
+    display: inline-block;
+    width: 110px;
+}

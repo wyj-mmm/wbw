@@ -1,0 +1,415 @@
+// 轮播图
+.swiper-container{
+    width:100%;
+    height:460px;
+    z-index: 0;
+    // margin:0 auto;
+    .slide1{
+        background: url(../img/bd2c5d2232344ef39786a524e5fba968.jpg) no-repeat center center;
+    }
+    .slide2{
+        background: url(../img/3222ef04e3bd4b8c94d082da7f45ebe5.jpg) no-repeat center center;
+    }
+    .slide3{
+        background: url(../img/4dfb1954a68245f7a0c439144ec1166a.jpg) no-repeat center center;
+    }
+    .slide4{
+        background: url(../img/3222ef04e3bd4b8c94d082da7f45ebe5.jpg) no-repeat center center;
+    }
+}
+// 轮播图下面的四个小图片 
+.box3{
+    width:1200px;
+    height:296px;
+    margin: 0 auto;
+    a{
+        float: left;
+        width:290px;
+        height: 296px;
+        overflow: hidden;
+        &:hover  img{
+            transform: scale(1.1);
+        }
+    }
+    img{
+        width:290px;
+        height: 296px;
+        margin: 10px;
+        transition: all 1s;
+    }
+}
+
+// 本月爆款
+.box4{
+    width:1200px;
+    height:480px;
+    // background-color: cyan;
+    margin: 0 auto;
+    h1{
+        padding-left: 10px;
+        padding-top: 40px;
+        color: #4a4a4a;
+        font-size: 20px;
+        float: left;
+    }
+    span{
+        display: inline-block;
+        width:72px;
+        height: 28px;
+        background-color: #333333;
+        font-size: 12px;
+        color: #fbd190;
+        text-align: center;
+        line-height: 28px;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 2px;
+    }
+    .box4-img{
+        float: left;
+        width:392px;
+        height: 360px;
+        margin-top: 20px;
+        a{
+            float: left;
+            width:392px;
+            height: 360px;
+            overflow: hidden;
+            &:hover  img{
+                transform: scale(1.1);
+            }
+        }
+        img{
+            transition: all 1s;
+        }
+    }
+    .right_top{
+        float: right;
+        width:795px;
+        height:174px;
+        // background-color: red;
+        margin-top: 20px;
+        img:last-child{
+            float: right;
+        }
+    }
+    .right_bottom{
+        float: right;
+        width:795px;
+        height:174px;
+        // background-color: red;
+        margin-top: 10px;
+        img:last-child{
+            float: right;
+        }
+    }
+}
+
+//  二手拍卖
+.box5{
+    width:1200px;
+    height:360px;
+    // background-color: cyan;
+    margin: 0 auto;
+    h2{
+        height: 54px;
+        color: #e04849;
+        font-size: 20px;
+        line-height: 54px;
+        padding-left: 10px;
+    }
+    .l_img{
+        width:390px;
+        height: 278px;
+        float: left;
+        a{
+            float: left;
+            width:392px;
+            height: 278px;
+            overflow: hidden;
+            &:hover  img{
+                transform: scale(1.1);
+            }
+        }
+        img{
+            transition: all 1s;
+        }
+    }
+    .r_banner{
+        float: right;
+        width:795px;
+        height:278px;
+        background-color: white;
+        .img_s1{
+            width:125px;
+            height:230px;
+            // background-color: yellow;
+            margin: 25px 35px;
+            float: left;
+        }
+        img{
+            border-radius: 10px;
+        }
+        span{
+            // display: inline-block;
+            font-size: 12px;
+            color:#666666;
+            text-align: center;
+        }
+
+    }
+}
+
+// 排行版
+.paihangban{
+    width:1200px;
+    height:360px;
+    // background-color: cyan;
+    margin: 0 auto;
+    h2{
+        padding-left: 10px;
+        padding-top: 40px;
+        color: #4a4a4a;
+        font-size: 20px;
+        float: left;
+    }
+    .phb span{
+        display: inline-block;
+        width:72px;
+        height: 28px;
+        background-color: #333333;
+        font-size: 12px;
+        color: #fbd190;
+        text-align: center;
+        line-height: 28px;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 2px;
+    }
+    .phb_img{
+        width:390px;
+        height: 280px;
+        padding-top: 10px;
+        float: left;
+        a{
+            float: left;
+            width:392px;
+            height: 280px;
+            overflow: hidden;
+            &:hover  img{
+                transform: scale(1.1);
+            }
+        }
+        img{
+            transition: all 1s;
+        }
+    }
+    .phb_img2{
+        float: left;
+        width:390px;
+        height:280px;
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+        .img_1{
+           margin:8px;
+           width:200px;
+           height: 265px;
+           float: left;
+        }
+    }      
+    .phb_imgpic{
+        width:165px;
+        height: 140px;
+        // background-color: red;
+        float: right;
+        margin: 70px 0;
+        .p1{
+            color:#333333;
+        }
+        .sp1{
+            height:38px;
+            line-height: 38px;
+            font-size: 10px;
+            color:#d8974f;
+        }
+        .sp2{
+            height:38px;
+            line-height: 38px;
+            font-size: 10px;
+            color: #999999;
+        }
+        .sp3{
+            font-size: 10px;
+            color:#d8974f;
+            border:1px solid #d8974f;
+        }
+    }
+    .phb_img3{
+        float: right;
+        width:390px;
+        height:280px;
+        // background-color: red;
+        margin-top: 10px;
+        .phb_img4{
+            width:190px;
+            height:134px;
+            background-color: white;
+            float: left;
+            img{
+                margin:8px 50px;
+            }
+        }
+        .phb_img6{
+            float: right;
+        }
+        .phb_img7{
+            margin-top: 12px;
+        }
+        .phb_img8{
+            float: right;
+            margin-top: 12px;
+        }
+    }
+}
+
+// 品牌馆
+.pinpaiguan{
+    width:1200px;
+    height:635px;
+    // background-color: yellow;
+    margin:0 auto;
+    h2{
+        padding-left: 10px;
+        padding-top: 40px;
+        color: #4a4a4a;
+        font-size: 20px;
+        float: left;
+    }
+    span{
+        display: inline-block;
+        width:72px;
+        height: 28px;
+        background-color: #333333;
+        font-size: 12px;
+        color: #fbd190;
+        text-align: center;
+        line-height: 28px;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 2px;
+    }
+   .p_img{
+        width:100%;
+        height:530px;
+        margin: 20px 0;
+        .p_imgs{
+            position: relative;
+            float:left;
+            &:hover .img_s{
+                display: block;
+            }
+        }
+        .p_top2,.p_bottom2{
+            float: right;
+        }
+    }
+}
+    .p_bottom2,.p_bottom{
+        margin-top: 6px;
+    } 
+    .img_s{
+        position: absolute;
+        left:52px;
+        top:40px;
+        display: none;
+    }
+// 六张小图片
+.box_img{
+    width:1200px;
+    height:98px;
+    margin:0 auto 26px;     
+    .box_img1{
+        float: left;
+        width:190px;
+        height:98px;
+        background-color: white;
+        margin: 0 5px;
+        &:hover{
+            background-color: #d5a979;
+            img{
+                display: none;
+            }
+            span{
+                display: block;
+                text-align: center;
+                color: white;
+                margin:25px 35px;
+                height:48px;
+                line-height: 48px;
+            }
+        }
+        img{
+            margin:25px 35px;  
+        }
+        span{
+            width:120px;
+            height:48px;
+            background-color: #d5a979;
+            display: none;
+            &:hover{
+                display: block;
+            } 
+        }
+    }
+}
+
+// 猜你喜欢
+.cainixihuan{
+    width: 1200px;
+    // background-color: yellow;
+    margin: 24px auto 0;
+    h2{
+        font-size: 20px;
+        color:#4a4a4a;
+        padding: 20px 0  20px 10px;
+    }
+    // .se-down{
+    //     width:290px;
+    //     height:330px;
+    //     background-color: white;
+    // }
+    .self-down{
+        height:300px;
+        display: flex;
+        .cosmetic-msg{
+            // list-style: none;
+            // height:330px;
+            width: calc(1300px / 4);
+            img{
+                margin-left: 10%;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-left: 10%;
+                width: 80%;
+                font-size: 14px;
+            }
+        }
+        .introduce{
+            margin-bottom: 12px;
+            &:hover{
+                color:#ff5224;
+            }
+        }
+        .price{
+            margin-bottom: 5px;
+            font-weight: 600;
+            color:#ff5224;
+            font-size: 16px;
+        }
+    
+    }
+}
+

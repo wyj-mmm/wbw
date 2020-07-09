@@ -1,0 +1,122 @@
+// .shop{
+//     width:100px ;
+//     height:30px ;
+//     background-color: antiquewhite;
+//     margin-left: 50px;
+    
+// }
+.shop_ul{
+    width:200px ;
+    height:0 ;
+    background-color:#e6e6e6;
+    display: none;
+    position: relative;
+    // margin-left: 50px;
+    
+}
+.shop_ul li{
+    height:57px;
+    line-height:57px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color:#e6e6e6;
+    }
+.shop_ul li a{
+    
+    font-size:14px;
+    display: inline-block;
+}
+.shop_ul li a:nth-child(2){
+    color:#808080 ;
+}
+.shop_ul li a:nth-child(3),.shop_ul li a:nth-child(4){
+    color:#666666;
+}
+.shop_ul li span{
+    width: 4px;
+    height:57px;
+    display: inline-block;
+}
+.shop_ul li.ac{
+    background-color:#ffffff ;
+}
+.shop_ul li span.ac{
+    background-color:#ccaa7a;
+}
+.shop_ul_erji{
+    width:1000px;
+    height:462px;
+    position: absolute;
+    background-color: aqua;
+    left:199px;
+    top: 0;
+    display:none;
+}
+.shop_ul_erji .box{
+    width:1000px;
+    height:462px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display:none;
+}
+
+// 列表
+.good_box{
+    width:1200px;
+    height:1000px;
+    margin: 0 auto;
+    .ways{
+        width:400px;
+        display: flex;
+        font-size: 14px;
+        border-radius: 3px;
+        border: 1px solid #dcdfe6;
+        overflow: hidden;
+        margin-left: 20px;
+        margin-top: 20px;
+        :first-child{
+            background: orange;
+        }
+        :last-child{
+            border-right: none;
+        }
+        span{
+            display: block;
+            padding: 0 20px;
+            line-height: 40px;
+            border-right: 1px solid  #dcdfe6;
+        }
+    }
+}
+
+.wGoods{
+    // width: 33.3%;
+    margin: 0 5px;
+    float: left;
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        span{
+            color: #666666;
+        }
+        .img1{
+            // width: 80%;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        h3{
+            color: orange;
+        }
+        p{
+            height: 50px;
+            margin-top: 15px;
+            &:hover{
+                color: orange;
+            }
+        }
+    }
+}
